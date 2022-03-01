@@ -7,16 +7,20 @@
   padding: 0;
 }
 
-.nav-logo-text {
+.nav-logo-text h4 {
   font-size: 24px;
   font-weight: 700;
-  text-decoration: none;
+  margin: 0;  
 }
 
 .nav-logo-text,
 .nav-logo-text:hover {
-  margin: 0;
   color: #00285f;
+  text-decoration: none;  
+}
+
+#dscarrostop-navbar {
+  justify-content: flex-end;
 }
 
 .main-menu {
@@ -27,6 +31,10 @@
   justify-content: space-between;
 }
 
+.main-menu a.active {
+  font-weight: 700;
+}
+
 .main-menu a {
   color: #00285f;
   text-decoration: none;
@@ -34,4 +42,12 @@
 
 .main-menu a:hover {
   color: #fff;
+}
+
+
+@media (min-width: 1280px) {
+  #main-nav-container {
+    padding-left: 150px;
+    padding-right: 150px;
+  }  
 }

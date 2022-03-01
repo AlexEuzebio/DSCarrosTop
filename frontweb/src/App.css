@@ -1,5 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
 
 * {
-    font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+.base-card {
+  background-color: #ededed;
+  border-radius: 10px;
+}
+
+.base-button {
+  height: 40px;
+  background-color: #00285f;
+  border-radius: 5px;
+}
+
+.base-button h6 {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 0;
+  color: #fff;
+
+}
+
+.base-button h6:hover {
+  color: #F78B00;
 }

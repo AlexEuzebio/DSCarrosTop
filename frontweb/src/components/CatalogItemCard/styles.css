@@ -1,0 +1,55 @@
+.catalog-item-card {
+  padding-top: 14px;
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+}
+
+.image-container {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.text-container {
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-bottom: 38px;
+}
+
+.text-container h3 {
+  margin: 14px 0;
+  font-size: 18px;
+  font-weight: 700;
+  color: #000;
+  text-align: center;
+}
+
+.text-container p {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 400;
+  color: #585858;
+  font-style: italic;
+  line-height: 16px;
+  text-align: left;
+}
+
+.item-btn-container {
+  text-align: center;
+  margin: 0 16px;
+}
+
+.buy-btn {
+  width: 100%;
+}
+
+@media (min-width: 576px) {
+  .text-container p {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 768px) {
+  .text-container p {
+    font-size: 14px;
+  }
+}
